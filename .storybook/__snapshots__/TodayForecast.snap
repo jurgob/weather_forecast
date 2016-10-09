@@ -1,0 +1,89 @@
+exports[`Forecast 1`] = `
+<div
+  style={
+    Object {
+      "verticalAlgn": "top"
+    }
+  }>
+  <div>
+    clear sky
+  </div>
+  <img
+    alt="clear sky"
+    src="http://openweathermap.org/img/w/01n.png"
+    style={
+      Object {
+        "display": "block",
+        "float": "left",
+        "height": "80px",
+        "lineHeight": "0"
+      }
+    } />
+  <span
+    style={
+      Object {
+        "display": "block",
+        "float": "left",
+        "fontSize": "30px",
+        "height": "80px",
+        "padding": "15px 0px"
+      }
+    }>
+    18
+    <sup>
+      °
+    </sup>
+  </span>
+  <div
+    style={
+      Object {
+        "clear": "both"
+      }
+    } />
+</div>
+`;
+
+exports[`Forecast 2`] = `
+<div
+  style={
+    Object {
+      "verticalAlgn": "top"
+    }
+  }>
+  <div>
+    few clouds
+  </div>
+  <img
+    alt="few clouds"
+    src="http://openweathermap.org/img/w/02d.png"
+    style={
+      Object {
+        "display": "block",
+        "float": "left",
+        "height": "80px",
+        "lineHeight": "0"
+      }
+    } />
+  <span
+    style={
+      Object {
+        "display": "block",
+        "float": "left",
+        "fontSize": "30px",
+        "height": "80px",
+        "padding": "15px 0px"
+      }
+    }>
+    19
+    <sup>
+      °
+    </sup>
+  </span>
+  <div
+    style={
+      Object {
+        "clear": "both"
+      }
+    } />
+</div>
+`;

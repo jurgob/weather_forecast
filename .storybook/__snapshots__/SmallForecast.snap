@@ -1,0 +1,83 @@
+exports[`SmallForecast 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+      "textAlign": "center",
+      "verticalAlgn": "top"
+    }
+  }>
+  <div>
+    <span>
+      Fri
+    </span>
+  </div>
+  <div>
+    <span>
+      23
+      :
+      00
+    </span>
+  </div>
+  <img
+    alt="clear sky"
+    src="http://openweathermap.org/img/w/01n.png"
+    style={
+      Object {
+        "height": "40px",
+        "lineHeight": "0"
+      }
+    } />
+  <div>
+    <span
+      style={undefined}>
+      18
+      <sup>
+        °
+      </sup>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SmallForecast 2`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+      "textAlign": "center",
+      "verticalAlgn": "top"
+    }
+  }>
+  <div>
+    <span>
+      Mon
+    </span>
+  </div>
+  <div>
+    <span>
+      12
+      :
+      00
+    </span>
+  </div>
+  <img
+    alt="few clouds"
+    src="http://openweathermap.org/img/w/02d.png"
+    style={
+      Object {
+        "height": "40px",
+        "lineHeight": "0"
+      }
+    } />
+  <div>
+    <span
+      style={undefined}>
+      19
+      <sup>
+        °
+      </sup>
+    </span>
+  </div>
+</div>
+`;

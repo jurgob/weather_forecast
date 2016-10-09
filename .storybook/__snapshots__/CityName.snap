@@ -1,0 +1,25 @@
+exports[`London`] = `
+<div
+  style={
+    Object {
+      "fontSize": "15px"
+    }
+  }>
+  London
+  , 
+  uk
+</div>
+`;
+
+exports[`Rome`] = `
+<div
+  style={
+    Object {
+      "fontSize": "15px"
+    }
+  }>
+  Rome
+  , 
+  it
+</div>
+`;

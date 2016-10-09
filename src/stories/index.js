@@ -1,17 +1,32 @@
 import React from 'react';
-import { storiesOf, action, linkTo } from '@kadira/storybook';
-import Button from './Button';
-import Welcome from './Welcome';
+import { storiesOf} from '@kadira/storybook';
 
-storiesOf('Welcome', module)
-  .add('to Storybook', () => (
-    <Welcome showApp={linkTo('Button')}/>
+import CityName from '../components/CityName';
+import TodayForecast from '../components/TodayForecast';
+import SmallForecast from '../components/SmallForecast';
+
+
+storiesOf('CityName', module)
+  .add('London', () => (
+    <CityName city="London" country="uk" />
+  ))
+  .add('Rome', () => (
+    <CityName city="Rome" country="it" />
   ));
 
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
+
+storiesOf('TodayForecast', module)
+  .add('Forecast 1', () => (
+    <TodayForecast description="clear sky" icon="01n" temp={18.44} />
   ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
+  .add('Forecast 2', () => (
+    <TodayForecast description="few clouds" icon="02d" temp={19.44} />
+  ));
+
+storiesOf('SmallForecast', module)
+  .add('SmallForecast 1', () => (
+    <SmallForecast description="clear sky" icon="01n" temp={18.44} date="2016-09-09 23:00:00" />
+  ))
+  .add('SmallForecast 2', () => (
+    <SmallForecast description="few clouds" icon="02d" temp={19.44} date="2016-10-10 12:00:00" />
   ));
