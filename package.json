@@ -5,6 +5,8 @@
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "@kadira/storyshots": "^1.1.5",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
