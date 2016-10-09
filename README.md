@@ -1,6 +1,14 @@
 ## Demo
 You can find a demo of this project [here](http://reactforecast.herokuapp.com/)
 
+## About the Technology
+ * React is used to do the entire project, I've used create-react-app and getstorybook to bootstarp the project.
+ * I use circle-ci as CI and heroku as hosting.
+
+## Further exapnsion
+ * use redux to manage the state. this opens the possibility to save the state in the store easily
+ * after this, use webmanifest to save the javascript resources. In combination with the state saved in the localstorage, it will let the app to be used offline
+ * Do some style :). Use Aprhodite to optimize the styles and make them more debugable.
 
 ## Folder Structure
 
@@ -28,7 +36,7 @@ my-app/
 
 ## Install it
 
-* be sure you have node version <= 6.0 installed on your machine 
+* be sure you have node version <= 6.0 installed on your machine
 * clone the project
 * set this env variable:  ```REACT_APP_OWM_API_KEY=[your openweathermap api key]```
 * install all the dependence with ```sh npm install ```
