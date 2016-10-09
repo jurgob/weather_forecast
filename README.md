@@ -28,6 +28,7 @@ my-app/
 
 ## Install it
 
+* be sure you have node version <= 6.0 installed on your machine 
 * clone the project
 * set this env variable:  ```REACT_APP_OWM_API_KEY=[your openweathermap api key]```
 * install all the dependence with ```sh npm install ```
