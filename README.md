@@ -8,7 +8,7 @@ You can find a demo of this project [here](http://reactforecast.herokuapp.com/)
 ## Further exapnsion
  * use redux to manage the state. this opens the possibility to save the state in the store easily
  * after this, use webmanifest to save the javascript resources. In combination with the state saved in the localstorage, it will let the app to be used offline
- * Do some style :). Use Aprhodite to optimize the styles and make them more debugable.
+ * Do some style :). Use [Aprhodite](https://github.com/Khan/aphrodite) to optimize the styles and make them more debugable.
 
 ## Folder Structure
 
